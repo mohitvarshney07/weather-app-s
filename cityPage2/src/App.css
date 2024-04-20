@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.searchBar {
+  margin: auto;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+  background-color: #80bcbd;
+}
+
+.search {
+  border: 2px solid black;
+  width: 500px;
+  color: black;
+  height: 25px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.searchBar button {
+  height: 25px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.searchBar button:hover {
+  background-color: #d5f0c1;
+}
+
+.searchBar button:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.cityCard {
+  margin: auto;
+  margin-top: 10px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #d5f0c1;
+}
+
+.cityCard h2 {
+  border-bottom: 2px solid black;
+  margin-top: auto;
+  padding: 5px;
+  background-color: #aad9bb;
+}
+
+.cityList {
+  margin: auto;
+  width: 65%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 1px;
+  column-gap: 10px;
+  align-items: left;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.properties {
+  text-align: left;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+b {
+  margin-left: 4px;
+  color: red;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  background-color: #f9f7c9;
+  border-top: 2px solid black;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.cityPage {
+  font-weight: bold;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+  margin-top: 10px;
+  background-color: beige;
+}
+
+.cityPage h1 {
+  width: 100%;
+  margin-top: auto;
+  border-bottom: 2px solid black;
+  background-color: #80bcbd;
+}
+
+.cityPage div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back {
+  margin-top: 20px;
+  width: 10%;
+  border: 2px solid black;
+  border-radius: 2px;
+  color: green;
+  font-weight: bolder;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.back:hover {
+  background-color: #c6bfbf;  
+}
+
+.back:active{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
